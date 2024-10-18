@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1 h1{
+            background-color: red;
+        }
+        #d1>h1{
+            color: yellow;
+        }
+        #d1+p{
+            border: 3px solid green;
+
+        }
+        #d1~p{
+            outline: 4px double bisque;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>para1</p>
+    <div id="d1">
+        <h1>Hello</h1>
+        <div id="c1">
+            <h1>
+                Hi
+            </h1>
+        </div>
+    </div>
+    <p>para2</p>
+    <p>para3</p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child{
+            background-color: beige;
+            border: 2px solid;
+            width: 30%;
+            height: 30%;
+
+        }
+        #p{
+            background-color: aqua;
+            border: 2px solid;
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            flex-flow: row wrap;
+            height: 500px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="p">
+        <div id="d1" class="child">div1</div>
+        <div id="d2" class="child">div2</div>
+        <div id="d3" class="child">div3</div>
+        <div id="d4" class="child">div4</div>
+        <!-- <div id="d1" class="child">div5</div>
+        <div id="d2" class="child">div6</div>
+        <div id="d3" class="child">div7</div>
+        <div id="d4" class="child">div8</div> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+.header{
+background-color: #1877f9;
+padding:30px;
+position: relative;
+
+}
+
+.logo{
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.logincnt{
+    position: absolute;
+    color: white;
+    right: 38px;
+    top: 58px;
+}
+
+.labels{
+    position: absolute;
+    right: 192px;
+    top: 40px;
+
+}
+
+#l1{
+    margin: right 200px; ;
+}
